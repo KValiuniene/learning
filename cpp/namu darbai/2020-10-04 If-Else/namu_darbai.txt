@@ -1,0 +1,64 @@
+1)figurosplotas: parasyti programa, kuri paklaustu kokios figuros plota reikia apskaiciuoti (status trikampis/kvadratas/staciakampis) 
+ir priklausomai nuo pasirinkto varianto paprasytu ivesti reikalingus duomenis ir apskaiciuotu plota..
+programa konsoleje turetu atrodyti daugmaz taip:
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!PAVYZDYS PIRMAS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+kokios figuros plota skaiciuosime?(1-stataus trikampio, 2-kvadrato, 3-staciakampio):
+2 
+iveskite kvadrato krastines ilgi:
+4
+kvadrato plotas: 16
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!PAVYZDYS PIRMAS BAIGIASI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!PAVYZDYS ANTRAS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+kokios figuros plota skaiciuosime?(1-stataus trikampio, 2-kvadrato, 3-staciakampio):
+3
+iveskite pirmos staciakampio krastines ilgi:
+5
+iveskite antros staciakampio krastines ilgi:
+8
+staciakampio plotas: 40
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!PAVYZDYS ANTRAS BAIGIASI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!PAVYZDYS TRECIAS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+kokios figuros plota skaiciuosime?(1-stataus trikampio, 2-kvadrato, 3-staciakampio):
+5
+pasirinktas nesamas variantas, programa baigia darba
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!PAVYZDYS TRECIAS BAIGIASI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!>>>>>>  PIRMOS >>>UZDUOTIES<<< PABAIGA   <<<<<<<<<<<<<<<<!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+2)parasyti programa kuri paprasytu ivesti staciakampio krastiniu ilgius ir paklaustu ar apskaiciuoti plota, ar perimetra. tuomet apskaiciuotu tai ko paprasom.
+pvz:
+
+iveskite pirmos staciakampio krastines ilgi:
+4
+iveskite antros staciakampio krastines ilgi:
+7
+apskaiciuoti plota ar perimetra?(1-plotas, 2-perimetras):
+2
+staciakampio perimetras: 22
+
+

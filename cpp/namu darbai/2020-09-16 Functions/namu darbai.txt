@@ -1,0 +1,56 @@
+
+!!!!PAVYZDYS!!!! funkcijoms kurias jau !!!!PARASEM!!!! vakar:
+
+(!!!!!PAVYZDINE!!!!!)uzduotis: suma: parasyti funkcija "atspauzdinkSuma" kuri ima 2 int parametrus ir atspausdina suma.
+
+musu funkcija atrode taip:
+void atspauzdinkSuma(int skaicius, int skaicius2)
+{
+    cout << "Suma :" << skaicius + skaicius2 << endl; //2
+}
+
+!!!!!!2 int parametrai!!!!!! yra skaicius ir skaicius2. <skaicius> yra pirmas parametras, <skaicius2> yra antras parametras (nes tokia tvarka jie surasyti funkcijos aprasyme(deklaracijoje))
+
+!!!!!!funkcijos aprasymas!!!!!! yra si eilute (taip pat 7 eilute siame faile):
+void atspauzdinkSuma(int skaicius, int skaicius2)
+
+
+(!!!!!!KITA PAVYZDINE!!!!!)uzduotis: pasisveikinkSu: parasyti funkcija "pasisveikinkSu" kuri ima 1 string parametra <vardas> ir atspausdina tokia eilute: "Labas, <vardas>!"
+
+musu funkcija atrode taip:
+void pasisveikinkSu(string vardas)
+{
+    cout << "labas, " << vardas << "!" << endl; //4, 6, 8
+}
+
+!!!!!1 string parametras!!!!!! yra vardas. 
+
+
+
+toliau rasau namu darbus kuriuos reiketu atlikti siandien. jei ko nesupranti, rasyk man i skype. visas uzduotis !!!!!reikia rasyti i atskirus failus!!!!!! pvz uzduoti sandauga reikia rasyti i sandauga.cpp
+
+1)tavoSkaicius: parasyti funkcija "tavoSkaicius" kuri ima viena double parametra <skaicius> ir atspausdina tokia eilute: "tavo skaicius yra: <skaicius>"
+
+2)sandauga: parasyti funkcija "sudaugink" kuri ima 2 double parametrus ir atspausdina sandauga.
+
+3)vardasSkaicius: parasyti funkcija "vardasSkaicius" kuri ima 2 parametrus (viena string ir viena int, <vardas> ir <skaicius>), ir atspausdina tokia eilute: "Labas, <vardas>! tavo skaicius yra: <skaicius>." 
+
+4)nuolaida: parasyti funkcija "atspausdinkNuolaida" kuri ima 2 double parametrus(<pradineKaina> ir <nuolaidaProc>), ir atspausdina tokia eilute: "Pradine kaina: <pradineKaina>. Suteikta nuolaida: <nuolaidaProc>%. Kaina po nuolaidos: <!!!!!!suskaiciuota!!!!!!GalutineKaina>."
+
+5)nuolaidaDaiktui: parasyti funkcija "nuolaidaDaiktui" kuri ima 3 parametrus (viena string ir 2 double, <daiktas>, <pradineKaina> ir <nuolaidaProc>), ir atspausdina tokia eilute: "<daiktas> kainuoja <pradineKaina>, su <nuolaidaProc>% nuolaida kainuos: <!!!!!!suskaiciuota!!!!!!GalutineKaina>"
+
+6)variablesIsNaujo: sioje programoje padaryti 2020-09-11 namu darbus is naujo(!!!!tik nuolaidu dali!!!!), taciau !!!!!!naudojant pries tai parasyta nuolaidaDaiktui funkcija!!!!!
+
+
+toliau pora uzduociu kur nerasau !!!kokio tipo!!! (string, int ar double) parametrus turi imti funkcija. bandyk sugalvoti pati:
+
+7)pliusPenkiolika: parasyti funkcija "pliusPenkiolika" kuri ima viena parametra <skaicius> ir atspausdina skaicius+15
+
+8)pakartok: parasyti funkcija "pakartok" kuri ima viena parametra <kazkas> ir atspausdina tokia eilute: <kazkas><kazkas>. pvz padavus "123" atspausdina "123123". padavus "asd" atspausdina "asdasd".
+
+9)padauginkIrPakartok: parasyti funkcija "padauginkIrPakartok" kuri ima viena parametra <kazkas>, ji padaugina is 2 ir tuomet atspausdina rezultata 2 kartus. pvz padavus "123" atspausdina "246246".
+
+
+
+!!!superwomeno uzduotis!!!!
+10)vienaIsKito: jau turime apsirase funkcijas "pasisveikinkSu" bei "tavoSkaicius". parasyti nauja funkcija "vienaIsKito", !!!taciau!!! sioje funkcijoje galima !!!TIK!!! kviesti pries tai minetas funkcijas. padaryti taip, kad "vienaIsKito" ivykdytu 3) (vardasSkaicius) uzduoti.

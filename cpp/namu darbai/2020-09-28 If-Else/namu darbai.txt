@@ -1,0 +1,52 @@
+if sintakse (sita esi uzsirasiusi ir savo sasiuvinyje):
+
+if (<salyga>)
+{
+    <instrukcijos ka daryti jei salyga lygi true>
+}
+else
+{
+    <instrukcijos ka daryti priesingu atveju>
+}
+
+
+else nera butinas.
+
+taip pat mokinomes AND (&&) bei OR(||) operacijas. && gaunasi tiesa kai !!!!ir kaireje ir desineje!!!!! yra tiesa. || tiesa kai !!!!!bent vienoje puseje!!!!! yra tiesa (true).
+
+t.y.
+
+true && true = true
+true && false = false
+false && true = false
+false && false = false
+
+o su OR (||):
+true || true = true
+true || false = true
+false || true = true
+false || false = false
+
+uzduotys:
+1) arlygu: parasyti programa kuri paprasytu ivesti 2 skaicius ir pasakytu ar ivesti skaiciai buvo vienodi. pvz ivedus 3 ir 3, isveda "skaiciai yra vienodi", ivedus 3 ir 4, isveda "skaiciai nera vienodi".
+
+2) kurisdidesnis: parasyti programa kuri paprasytu ivesti 2 skaicius  ()a ir b) ir pasakytu, ar a daugiau uz b, ar b daugiau uz a, ad jie vienodi. pvz ivedus 3 ir 3 isveda "skaiciao yra vienodi", ivedus 3 if 4 isveda "3 yra maziau uz 4", ivedus 4 ir 3, isveda "4 yra daugiau uz 3".
+
+3) artrikampis: 
+
+!!!!!!PRASIDEDA UZDAVINIO AISKINIMAS!!!!! 
+
+Trikampi kurio krastines pazymesime a, b ir c galime nubraizyti tik tuomet, kai priesingu krastiniu ilgiu suma didesne uz esama krastine. t.y. neimanoma nubraizyti trikampio kurio krastiniu ilgiai butu 1, 3 ir 1 (pabandyk nusipaisyti sasiuvinyje naudojant liniuote). taip pat neis nubraizyti ir 10, 4 ir 4 arba 3, 7 ir 15.
+
+!!!!!BAIGIASI UZDAVINIO AISKINIMAS!!!!!
+!!!!!TOLIAU EINA PATI UZDUOTIS!!!!!!
+
+parasyti tokia programa, kuri paprasytu ivesti trikampio krastiniu ilgius ir atspausdintu ar imanoma toki trikampi nubraizyti ar ne. pvz: ivedus 2, 4 ir 5 isveda "trikampi nubraizyti imanoma" (nes 2+4 > 5 bei 4+5>2 bei 2+5>4 ). o tarkim ivedus 4, 2 ir 1 atspausdintu "tokio trikampio nubraizyti neimanoma".
+
+4)arkvadratas: parasyti programa kuri paprasyti ivesti 4 krastiniu ilgius (a,b,c,d) ir atspausdintu ar is tokiu krastiniu galima nubraizyti kvadrata (visos krastines turi buti vienodo ilgio)
+
+5)arstaciakampis: parasyti programa kuri paprasyti ivesti 4 krastiniu ilgius (a,b,c,d) ir atspausdintu ar is tokiu krastiniu galima nubraizyti STACIAKAMPI (priesingos krastines turi buti vienodo ilgio)
+
+6)staciakampioperimetras: parasyti programa kuri  paprasyti ivesti 4 krastiniu ilgius (a,b,c,d) ir jei is tokiu krastiniu galima nubraizyti staciakampi, atspausdintu ar to staciakampio perimetras didesnis uz 30. pvz ivedus 2,4,2,4 isveda "galime nubraizyti staciakampi kurio perimetras mazesnis uz 30" (perimetras lygus 12). O ivedus 8,9,8,9 isvesda "galime nubraizyti staciakampi kurio perimetras didesnis uz 30" (nes perimetras lygus 35). o Ivedus 4,5,6,5 isveda "negalime nubraizyti tokio staciakampio"
+
+
