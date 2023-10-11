@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    //5)arstaciakampis: parasyti programa kuri paprasyti ivesti 4 krastiniu ilgius
+    // 5)arstaciakampis: parasyti programa kuri paprasytu ivesti 4 krastiniu ilgius
     //(a,b,c,d) ir atspausdintu ar is tokiu krastiniu galima nubraizyti STACIAKAMPI (priesingos krastines turi buti vienodo ilgio)
 
     int a = 5;

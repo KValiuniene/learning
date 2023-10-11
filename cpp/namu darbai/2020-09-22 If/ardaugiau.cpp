@@ -16,15 +16,16 @@ int main()
     cout << " iveskite antra skaiciu :" << endl;
     cin >> skaicius2;
 
-    cout << " ar skaicius daugiau uz skaiciu2 ?" << endl;
+    cout << " ar " << skaicius << "daugiau uz " << skaicius2 << " ?" << endl;
     cout << " atsakymas :" << (skaicius > skaicius2) << endl;
+    // atsakymas : false
 
     if (skaicius > skaicius2)
     {
-        //cout
-        //cin
-        //funkcija()
-        cout << " skaicius yra daugiau uz skaiciu2 " << endl;
+        // cout
+        // cin
+        // funkcija()
+        cout << skaicius << "yra daugiau uz" << skaicius2 << endl;
     }
 
     if (skaicius < skaicius2)
